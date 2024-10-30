@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "535997789354",
+    "project_id": "milogin-fcb92",
+    "storage_bucket": "milogin-fcb92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535997789354:android:f518cc15281efc5472ccd3",
+        "android_client_info": {
+          "package_name": "com.example.logintwitter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIu3_MwH-3uTwP1EPPMU6Iv6YOz-o8WVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
