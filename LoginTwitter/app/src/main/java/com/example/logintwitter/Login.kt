@@ -75,7 +75,17 @@ fun TwitterLoginScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-
+            Text( text = "Bienvenido", 
+                color = Color.White, 
+                fontSize = 28.sp, 
+                fontWeight = FontWeight.Bold, 
+                modifier = Modifier.padding(bottom = 8.dp) 
+        ) 
+            Text( text = "Inicia sesión para continuar", 
+                color = Color.White.copy(alpha = 0.8f), 
+                fontSize = 16.sp, 
+                modifier = Modifier.padding(bottom = 32.dp) 
+        )
             // Botón de login
             Button(
                 onClick = {
