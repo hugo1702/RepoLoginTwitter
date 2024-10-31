@@ -66,7 +66,16 @@ fun TwitterLoginScreen(navController: NavController) {
     }
 
     Box(
-
+        modifier = Modifier
+            .fillMaxSize()
+            .background(
+                brush = Brush.verticalGradient(
+                    colors = listOf(
+                        Color(0xFF1DA1F2), // Color de Twitter
+                        Color(0xFF0D8BD9)
+                    )
+                )
+            )
     ) {
         Column(
             modifier = Modifier
